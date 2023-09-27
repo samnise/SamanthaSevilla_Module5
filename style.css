@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Martian+Mono:wght@300&display=swap');
+
+*{padding: 0px;margin: 0px;}   
+
+.navbar{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.links{
+    display:inline;
+}
+.links a{
+    text-decoration: none;
+    font-family: Martian mono;
+    font-size: larger;
+    padding-left: 15px;
+    padding-right: 7px;
+    border: 1px solid rgb(206, 65, 96);
+    margin: 5px;
+    opacity: .7;
+    transition: .4s;
+}
+.links a:hover{
+    opacity: 1;
+    font-size: smaller;
+    transition: .4s;
+}
+
+.rounded{border-radius: 6px;}
+.pinkone{background-color: rgb(252, 85, 154);}
+.pinktwo{background-color: rgb(241, 128, 181);}
